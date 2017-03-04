@@ -14,9 +14,13 @@ organized? How would branches help?
 当我想要修复错误、添加新特性等等的时候。
 
 How do the diagrams help you visualize the branch structure?
+直观地显示各个分支之间的关系，以及每个 commit 的父 commit
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+每个分支中的 commit 都会被保留，并以时间点排序；
+可以更直观地两个分支合并的结果。
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+自动合并可能会出错，手动合并需要人去做选择和判断，不易出错。
